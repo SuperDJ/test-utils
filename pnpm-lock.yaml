@@ -209,9 +209,6 @@ importers:
       jsdom:
         specifier: 31.0.0
         version: 31.0.0
-      jsdom-global:
-        specifier: 3.0.2
-        version: 3.0.2(jsdom@31.0.0)
       lint-staged:
         specifier: 17.6.0
         version: 17.6.0
@@ -1781,11 +1778,6 @@ packages:
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
-  jsdom-global@3.0.2:
-    resolution: {integrity: sha512-t1KMcBkz/pT5JrvcJbpUR2u/w1kO9jXctaaGJ0vZDzwFnIvGWw9IDSRciT83kIs8Bnw4qpOl8bQK08V01YgMPg==}
-    peerDependencies:
-      jsdom: '>=10.0.0'
 
   jsdom@31.0.0:
     resolution: {integrity: sha512-xAkhD9z1eyFC5+QUi9K24CaZJgdCQ2GOGLW1GdVDoQvkp/AxEH9TQ0pAplPOlIiV92hfcgnFOADZypbjgbBT6Q==}
@@ -3965,10 +3957,6 @@ snapshots:
   js-tokens@10.0.0: {}
 
   js-tokens@4.0.0: {}
-
-  jsdom-global@3.0.2(jsdom@31.0.0):
-    dependencies:
-      jsdom: 31.0.0
 
   jsdom@31.0.0:
     dependencies:
